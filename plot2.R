@@ -11,7 +11,7 @@ createplot2 <- function(){
 	with(housedata, plot(DateTime ,Global_active_power, type = "l", xlab = "", ylab = "Global Active Power (kilowatts)"))
 	
 	# Upload to a png file
-	dev.copy(png, file = "plot1.png")
+	dev.copy(png, file = "plot2.png")
 	dev.off()
 }
 
